@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -93,7 +91,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               title: const Text("Shahzain Ahmed"),
-              subtitle: const Text("Hey, are you free tonight?"),
+              subtitle: const Text("Hey, are you free tonight?", style: TextStyle(fontSize: 15)),
               trailing: const Text(
                 "5:10 pm",
               ),
